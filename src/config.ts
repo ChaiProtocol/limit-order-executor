@@ -19,7 +19,7 @@ export const parseConfig = (): Config => {
     wallets: process.env.WALLETS!.split(","),
     rpc: process.env.RPC_PROVIDER!,
     multicall: process.env.MULTICALL!,
-    graphql: "https://graph.chai.xyz/subgraphs/name/chaiprotocol/dex",
+    graphql: "https://graph.chai.xyz/subgraphs/name/chaiprotocol/limitorder",
     dexId: DEXId.Chai,
     chainId: SupportedChainId.AURORA,
     swapRouter: "0xD8175C3603b6eC415Df1539dA66D66d8834a962b",

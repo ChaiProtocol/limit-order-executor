@@ -325,7 +325,7 @@ export const WETH_POLYGON = new Token(
 export const WNEAR_AURORA = new Token(
   SupportedChainId.AURORA,
   "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
-  18,
+  24,
   "wNEAR",
   "Wrapped Near"
 );
